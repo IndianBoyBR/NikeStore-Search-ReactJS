@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> should match snapshot 1`] = `
+.c0 {
+  font-size: 0.875rem;
+  display: contents;
+}
+
+.c0 * {
+  -webkit-scrollbar-width: 0;
+  -moz-scrollbar-width: 0;
+  -ms-scrollbar-width: 0;
+  scrollbar-width: 0;
+}
+
+.c0 *::-webkit-scrollbar {
+  background-color: #FFFFFF;
+  width: 0.5rem;
+  border-radius: 0.625rem;
+}
+
+.c0 *::-webkit-scrollbar-button {
+  display: none;
+}
+
+.c0 *::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 0.625rem;
+}
+
+.c0 *::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+  border-radius: 0.625rem;
+}
+
+.c0 *::-webkit-scrollbar-track:hover {
+  background-color: #FFFFFF;
+}
+
+.c0 *::-webkit-scrollbar-thumb:hover {
+  border: 0.5rem solid #000000;
+}
+
+.c1 {
+  border: none;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.c2 {
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clippath: inset(50%);
+  clippath: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c4 {
+  border: none;
+  padding-left: 0.5rem;
+  position: relative;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  list-style: none;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: #1A1A1A;
+  background-color: transparent;
+}
+
+.c4::after {
+  content: '';
+  border: solid #000000;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 0.25rem;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  right: 0;
+  top: 40%;
+  position: absolute;
+}
+
+.c4::-webkit-details-marker {
+  display: none;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c3[open] > summary::after {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.c6 {
+  position: relative;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.c7 {
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  background-color: #F7F7F7;
+  color: #000000;
+}
+
+.c7:checked + span {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.c8 {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  white-space: nowrap;
+  background-color: #F7F7F7;
+  color: #1A1A1A;
+}
+
+.c8:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.c5 {
+  position: absolute;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 0.5rem;
+  overflow-y: auto;
+  max-height: 8rem;
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 10%);
+  border-radius: 0.25rem;
+  -webkit-animation: llfyzB 0.4s ease-in-out;
+  animation: llfyzB 0.4s ease-in-out;
+}
+
+<div
+  class="c0"
+  data-testid="dropdown"
+>
+  <fieldset
+    class="c1"
+  >
+    <legend
+      class="c2"
+    >
+      Option #1
+    </legend>
+    <details
+      class="c3"
+      role="details"
+    >
+      <summary
+        class="c4"
+      >
+        Option #1
+      </summary>
+      <div
+        class="c5"
+      >
+        <label
+          class="c6"
+        >
+          <input
+            checked=""
+            class="c7"
+            name="radio"
+            type="radio"
+          />
+          <span
+            class="c8"
+          >
+            Option #1
+          </span>
+        </label>
+        <label
+          class="c6"
+        >
+          <input
+            class="c7"
+            name="radio"
+            type="radio"
+          />
+          <span
+            class="c8"
+          >
+            Option #2
+          </span>
+        </label>
+      </div>
+    </details>
+  </fieldset>
+</div>
+`;

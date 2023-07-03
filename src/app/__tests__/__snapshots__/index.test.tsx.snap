@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <Helmet
+    defaultTitle="Nike Stores"
+    defer={true}
+    encodeSpecialCharacters={true}
+    htmlAttributes={
+      Object {
+        "lang": undefined,
+      }
+    }
+    prioritizeSeoTags={false}
+    titleTemplate="%s - Nike Stores"
+  >
+    <meta
+      content="Nike Stores"
+      name="description"
+    />
+  </Helmet>
+  <ThemeProviderWrapper>
+    <Routes>
+      <Route
+        element={<Unknown />}
+        path="/"
+      />
+      <Route
+        element={<NotFoundPage />}
+      />
+    </Routes>
+    <Memo />
+    <Memo />
+    <Memo(l) />
+  </ThemeProviderWrapper>
+</BrowserRouter>
+`;

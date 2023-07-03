@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header  /> should match snapshot 1`] = `
+.c6 {
+  width: 100%;
+  position: relative;
+}
+
+.c7 {
+  position: absolute;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  left: 1rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c8 {
+  font-size: 1rem;
+  padding: 0.9rem 2.5rem 0.9rem 0.5rem;
+  outline: none;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  color: #737373;
+  background-color: #F7F7F7;
+  border: none;
+  border-radius: 3.125rem;
+  padding: 0.85rem 0.85rem 0.85rem 2.5rem;
+}
+
+.c8::-webkit-search-decoration,
+.c8::-webkit-search-cancel-button,
+.c8::-webkit-search-results-button,
+.c8::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c8::-webkit-input-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+.c8::-moz-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+.c8:-ms-input-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+.c8::placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+.c8:-ms-input-placeholder {
+  color: #737373;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.c1 {
+  width: 100%;
+  margin-right: 1rem;
+}
+
+.c3 {
+  display: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.c2 {
+  width: 2.5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.c10 {
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+}
+
+.c9 {
+  display: none;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.c4:visited {
+  color: #1A1A1A;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 3.5rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c9 {
+    display: block;
+  }
+}
+
+<div
+  class="c0"
+  data-testid="header"
+>
+  <div
+    class="c1"
+  >
+    <svg
+      class="c2"
+      fill="none"
+      height="32"
+      viewBox="0 0 91 32"
+      width="91"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M51.228 10.309l-5.607 1.49-15.559 4.12c-5.494 1.376-10.3 3.208-14.932 1.604C8.834 14.773 8.947 7.614 13.64 0 5.343 6.93-9.59 29.088 10.607 31.325c2.572.343 7.153-.57 12.128-2.688l22.887-9.504L90.76.457l-39.533 9.851z"
+        fill="#000"
+      />
+    </svg>
+  </div>
+  <div
+    class="c3"
+  >
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.newOffersPage
+      Lançamentos
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.malePage
+      Masculino
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.femalePage
+      Feminino
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.kidsPage
+      Infantil
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.offersPage
+      Ofertas
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.newOffersPage
+      Lançamentos
+    </a>
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      components.header.links.homePage
+      SNKRS
+    </a>
+  </div>
+  <div
+    class="c5"
+  >
+    <label
+      class="c6"
+    >
+      <svg
+        class="c7"
+        fill="none"
+        height="12"
+        viewBox="0 0 12 12"
+        width="12"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M5.333 0a5.333 5.333 0 103.27 9.547l1.592 1.591a.667.667 0 00.943-.943L9.547 8.604A5.333 5.333 0 005.334 0zm-4 5.333a4 4 0 118 0 4 4 0 01-8 0z"
+          fill="#1A1A1A"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <input
+        class="c8 c9"
+        data-testid="input"
+        placeholder="components.header.searchButtonLabel,Buscar"
+        style="width: 12rem;"
+        type="search"
+      />
+    </label>
+    <svg
+      class="c10"
+      fill="none"
+      height="22"
+      viewBox="0 0 20 22"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14 6a1 1 0 01-1-1V2H7v3a1 1 0 01-2 0V2a2 2 0 012-2h6a2 2 0 012 2v3a1 1 0 01-1 1z"
+        fill="#1A1A1A"
+      />
+      <path
+        d="M18 4H2a2 2 0 00-2 2v13a3 3 0 003 3h14a3 3 0 003-3V6a2 2 0 00-2-2zm0 15a1 1 0 01-1 1H3a1 1 0 01-1-1V6h16v13z"
+        fill="#1A1A1A"
+      />
+    </svg>
+  </div>
+</div>
+`;

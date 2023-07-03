@@ -1,0 +1,79 @@
+{
+  "homePage": {
+    "pageTitle": "Home",
+    "pageMetaContent": "Home - Meta Content",
+    "shoppingStores": "Lojas",
+    "searchPlaceholder": "Busque por endereço ou CEP",
+    "searchButtonLabel": "Buscar",
+    "filterMinorDistanceLabel": "Menor distância",
+    "filterGreaterDistance": "Maior distância",
+    "yourLocation": "Sua localização"
+  },
+  "notFoundPage": {
+    "pageTitle": "Not Found Page",
+    "pageMetaContent": "Not Found Page - Meta Content",
+    "message": "Page not found."
+  },
+  "components": {
+    "shoppingStoreCard": {
+      "seeOnMapLabel": "Ver no mapa",
+      "service": "Atendimento",
+      "availability": "Disponível em {{count}} dias úteis"
+    },
+    "shoppingStoresList": {
+      "filter": "Filtrar"
+    },
+    "newsLetter": {
+      "title": "Receba As Novidades Da Nike",
+      "message": "Cadastre-se e seja um dos primeiros a saber de todas as novidades e ofertas.",
+      "registerButtonLabel": "Cadastre-se"
+    },
+    "footer": {
+      "findShoppingStore": "Encontre Uma Loja Nike",
+      "registerForNews": "Cadastre-se para receber novidades",
+      "siteMap": "Mapa do site",
+      "help": {
+        "summary": "Ajuda",
+        "generalQuestions": "Dúvidas Gerais",
+        "findYourSize": "Encontre seu Tamanho",
+        "orders": "Pedidos",
+        "exchangesAndReturns": "Trocas e Devoluções",
+        "editConsent": "Editar consentimento",
+        "cookiePreferences": "Cookie Preferences",
+        "payments": "Pagamentos",
+        "products": "Produtos",
+        "corporate": "Corporativo",
+        "contactUs": "Fale Conosco"
+      },
+      "aboutNike": {
+        "summary": "Sobre a Nike",
+        "madeToPlay": "Feito para Jogar",
+        "sustentability": "Sustentabilidade"
+      },
+      "socialMedias": "Redes Sociais",
+      "paymentMethods": "Formas de pagamento",
+      "privacyPolicy": "Política de Privacidade",
+      "userTerms": "Termos de Uso",
+      "companyInfos": "© 2023 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0016-10. Rua José Semião Rodrigues Agostinho, 1370 - Galpão Unidade 17 - Nível 0, 1 e 2 - CEP 06833-300 - Embu das Artes/SP."
+    },
+    "header": {
+      "links": {
+        "newOffersPage": "Lançamentos",
+        "malePage": "Masculino",
+        "femalePage": "Feminino",
+        "kidsPage": "Infantil",
+        "offersPage": "Ofertas",
+        "homePage": "SNKRS"
+      },
+      "searchButtonLabel": "Buscar"
+    },
+    "topHeader": {
+      "links": {
+        "help": "Ajuda",
+        "followYourOrder": "Acompanhe seu pedido",
+        "joinUs": "Junte-se a nós",
+        "login": "Entrar"
+      }
+    }
+  }
+}

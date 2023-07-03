@@ -1,0 +1,28 @@
+{
+  "projectName": "NikeStore-Finder-ReactJS",
+  "projectOwner": "IndianBoyBR",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "IndianBoyBR",
+      "name": "Erik Cunha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27955793?v=4",
+      "profile": "https://github.com/IndianBoyBR",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "review",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 1,
+  "commitConvention": "none"
+}

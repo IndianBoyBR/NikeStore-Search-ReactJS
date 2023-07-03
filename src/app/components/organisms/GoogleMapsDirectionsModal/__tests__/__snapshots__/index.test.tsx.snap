@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoogleMapsDirectionsModal  /> should match snapshot 1`] = `
+.c0 {
+  position: fixed;
+  z-index: 999;
+  left: 5%;
+  top: 10%;
+  width: 90%;
+  height: 80%;
+  overflow: auto;
+  box-shadow: 0 0 4rem rgb(0 0 0 / 10%);
+  border-radius: 0.625rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    id="google-map"
+    style="border-radius: 0.625rem; height: 100%; width: 100%;"
+  />
+</div>
+`;

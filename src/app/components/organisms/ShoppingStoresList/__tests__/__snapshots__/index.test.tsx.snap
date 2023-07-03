@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingStoresList  /> should match snapshot 1`] = `
+.c2 {
+  font-size: 0.875rem;
+  display: contents;
+}
+
+.c2 * {
+  -webkit-scrollbar-width: 0;
+  -moz-scrollbar-width: 0;
+  -ms-scrollbar-width: 0;
+  scrollbar-width: 0;
+}
+
+.c2 *::-webkit-scrollbar {
+  background-color: #FFFFFF;
+  width: 0.5rem;
+  border-radius: 0.625rem;
+}
+
+.c2 *::-webkit-scrollbar-button {
+  display: none;
+}
+
+.c2 *::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 0.625rem;
+}
+
+.c2 *::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+  border-radius: 0.625rem;
+}
+
+.c2 *::-webkit-scrollbar-track:hover {
+  background-color: #FFFFFF;
+}
+
+.c2 *::-webkit-scrollbar-thumb:hover {
+  border: 0.5rem solid #000000;
+}
+
+.c3 {
+  border: none;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.c4 {
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clippath: inset(50%);
+  clippath: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c6 {
+  border: none;
+  padding-left: 0.5rem;
+  position: relative;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  list-style: none;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  color: #1A1A1A;
+  background-color: transparent;
+}
+
+.c6::after {
+  content: '';
+  border: solid #000000;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 0.25rem;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  right: 0;
+  top: 40%;
+  position: absolute;
+}
+
+.c6::-webkit-details-marker {
+  display: none;
+}
+
+.c5 {
+  position: relative;
+}
+
+.c5[open] > summary::after {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.c8 {
+  position: relative;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.c9 {
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  background-color: #F7F7F7;
+  color: #000000;
+}
+
+.c9:checked + span {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.c10 {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  white-space: nowrap;
+  background-color: #F7F7F7;
+  color: #1A1A1A;
+}
+
+.c10:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.c7 {
+  position: absolute;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 0.5rem;
+  overflow-y: auto;
+  max-height: 8rem;
+  box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 10%);
+  border-radius: 0.25rem;
+  -webkit-animation: llfyzB 0.4s ease-in-out;
+  animation: llfyzB 0.4s ease-in-out;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 {
+  white-space: break-spaces;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  color: #1A1A1A;
+}
+
+.c14 {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #1A1A1A;
+}
+
+.c15 {
+  background-color: transparent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  color: #1A1A1A;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.c15:focus,
+.c15:active {
+  outline: none;
+}
+
+.c16 {
+  background-color: #FFFFFF;
+  margin: 1rem 0;
+  border-radius: 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 1.5rem;
+  gap: 0.5rem;
+}
+
+.c17 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #737373;
+}
+
+.c18 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: #006611;
+}
+
+.c0 {
+  padding: 1rem;
+  border-radius: 0.625rem;
+  background-color: #F7F7F7;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  class="c0"
+  data-testid="shoppingStoresList"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      data-testid="dropdown"
+    >
+      <fieldset
+        class="c3"
+      >
+        <legend
+          class="c4"
+        >
+          Filter #1
+        </legend>
+        <details
+          class="c5"
+          role="details"
+        >
+          <summary
+            class="c6"
+          >
+            Filter #1
+          </summary>
+          <div
+            class="c7"
+          >
+            <label
+              class="c8"
+            >
+              <input
+                checked=""
+                class="c9"
+                name="radio"
+                type="radio"
+              />
+              <span
+                class="c10"
+              >
+                Filter #1
+              </span>
+            </label>
+            <label
+              class="c8"
+            >
+              <input
+                class="c9"
+                name="radio"
+                type="radio"
+              />
+              <span
+                class="c10"
+              >
+                Filter #2
+              </span>
+            </label>
+          </div>
+        </details>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    class="c11"
+  >
+    <div
+      class=""
+      data-testid="shoppingStoreCard"
+    >
+      <div
+        class="c12"
+      >
+        <span
+          class="c13"
+        >
+          Nike Store - Shopping Ibirapuera
+        </span>
+        <span
+          class="c14"
+        >
+          NaNkm
+        </span>
+      </div>
+      <button
+        class="c15"
+        role="showShoppingStoreOnMap"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 16 20"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M8 2c-1.574 0-3.095.657-4.225 1.846C2.644 5.036 2 6.66 2 8.364c0 2.48 1.536 4.901 3.243 6.796A23.147 23.147 0 008 17.745a23.145 23.145 0 002.757-2.585C12.464 13.265 14 10.844 14 8.364c0-1.704-.644-3.328-1.775-4.518C11.095 2.657 9.575 2 8 2zm0 17c-.574.819-.574.819-.575.818l-.002-.001-.006-.004-.018-.014a9.849 9.849 0 01-.305-.225A25.142 25.142 0 013.757 16.5C1.964 14.508 0 11.61 0 8.364 0 6.16.831 4.04 2.325 2.468 3.821.894 5.861 0 8 0s4.179.894 5.675 2.468C15.168 4.04 16 6.16 16 8.364c0 3.246-1.964 6.144-3.757 8.135a25.146 25.146 0 01-3.337 3.075 14.92 14.92 0 01-.305.225l-.018.014-.006.004h-.002c0 .001 0 .002-.575-.817zm0 0l.574.819a1 1 0 01-1.149 0L8 19z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M8 7a1 1 0 100 2 1 1 0 000-2zM5 8a3 3 0 116 0 3 3 0 01-6 0z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+        </svg>
+        components.shoppingStoreCard.seeOnMapLabel
+        Ver no mapa
+      </button>
+      <div
+        class="c16"
+      >
+        <span
+          class="c17"
+        >
+          Av. Ibirapuera, 3103 - Indianópolis, São Paulo - SP, 04029-902
+        </span>
+        <span
+          class="c17"
+        >
+          components.shoppingStoreCard.service
+          Atendimento
+          :
+          <br />
+          Segunda a Sábado 10h às 22h | Domingo 11h às 20h
+        </span>
+        <span
+          class="c18"
+        >
+          components.shoppingStoreCard.availability
+          Disponível em {{count}} dias úteis
+        </span>
+      </div>
+    </div>
+    <div
+      class=""
+      data-testid="shoppingStoreCard"
+    >
+      <div
+        class="c12"
+      >
+        <span
+          class="c13"
+        >
+          Nike Store - Shopping Bourbon
+        </span>
+        <span
+          class="c14"
+        >
+          NaNkm
+        </span>
+      </div>
+      <button
+        class="c15"
+        role="showShoppingStoreOnMap"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 16 20"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M8 2c-1.574 0-3.095.657-4.225 1.846C2.644 5.036 2 6.66 2 8.364c0 2.48 1.536 4.901 3.243 6.796A23.147 23.147 0 008 17.745a23.145 23.145 0 002.757-2.585C12.464 13.265 14 10.844 14 8.364c0-1.704-.644-3.328-1.775-4.518C11.095 2.657 9.575 2 8 2zm0 17c-.574.819-.574.819-.575.818l-.002-.001-.006-.004-.018-.014a9.849 9.849 0 01-.305-.225A25.142 25.142 0 013.757 16.5C1.964 14.508 0 11.61 0 8.364 0 6.16.831 4.04 2.325 2.468 3.821.894 5.861 0 8 0s4.179.894 5.675 2.468C15.168 4.04 16 6.16 16 8.364c0 3.246-1.964 6.144-3.757 8.135a25.146 25.146 0 01-3.337 3.075 14.92 14.92 0 01-.305.225l-.018.014-.006.004h-.002c0 .001 0 .002-.575-.817zm0 0l.574.819a1 1 0 01-1.149 0L8 19z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M8 7a1 1 0 100 2 1 1 0 000-2zM5 8a3 3 0 116 0 3 3 0 01-6 0z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+        </svg>
+        components.shoppingStoreCard.seeOnMapLabel
+        Ver no mapa
+      </button>
+      <div
+        class="c16"
+      >
+        <span
+          class="c17"
+        >
+          R. Palestra Itália, 500 - Perdizes, São Paulo - SP, 05005-030
+        </span>
+        <span
+          class="c17"
+        >
+          components.shoppingStoreCard.service
+          Atendimento
+          :
+          <br />
+          Segunda a Sábado 10h às 22h | Domingo 11h às 20h
+        </span>
+        <span
+          class="c18"
+        >
+          components.shoppingStoreCard.availability
+          Disponível em {{count}} dias úteis
+        </span>
+      </div>
+    </div>
+    <div
+      class=""
+      data-testid="shoppingStoreCard"
+    >
+      <div
+        class="c12"
+      >
+        <span
+          class="c13"
+        >
+          Nike Store - Osasco
+        </span>
+        <span
+          class="c14"
+        >
+          NaNkm
+        </span>
+      </div>
+      <button
+        class="c15"
+        role="showShoppingStoreOnMap"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 16 20"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M8 2c-1.574 0-3.095.657-4.225 1.846C2.644 5.036 2 6.66 2 8.364c0 2.48 1.536 4.901 3.243 6.796A23.147 23.147 0 008 17.745a23.145 23.145 0 002.757-2.585C12.464 13.265 14 10.844 14 8.364c0-1.704-.644-3.328-1.775-4.518C11.095 2.657 9.575 2 8 2zm0 17c-.574.819-.574.819-.575.818l-.002-.001-.006-.004-.018-.014a9.849 9.849 0 01-.305-.225A25.142 25.142 0 013.757 16.5C1.964 14.508 0 11.61 0 8.364 0 6.16.831 4.04 2.325 2.468 3.821.894 5.861 0 8 0s4.179.894 5.675 2.468C15.168 4.04 16 6.16 16 8.364c0 3.246-1.964 6.144-3.757 8.135a25.146 25.146 0 01-3.337 3.075 14.92 14.92 0 01-.305.225l-.018.014-.006.004h-.002c0 .001 0 .002-.575-.817zm0 0l.574.819a1 1 0 01-1.149 0L8 19z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+          <path
+            clip-rule="evenodd"
+            d="M8 7a1 1 0 100 2 1 1 0 000-2zM5 8a3 3 0 116 0 3 3 0 01-6 0z"
+            fill="#1A1A1A"
+            fill-rule="evenodd"
+          />
+        </svg>
+        components.shoppingStoreCard.seeOnMapLabel
+        Ver no mapa
+      </button>
+      <div
+        class="c16"
+      >
+        <span
+          class="c17"
+        >
+          Av. dos Autonomistas, 1542 - Vila Yara, Osasco - SP, 06020-010
+        </span>
+        <span
+          class="c17"
+        >
+          components.shoppingStoreCard.service
+          Atendimento
+          :
+          <br />
+          Segunda a Sábado 10h às 22h | Domingo 11h às 20h
+        </span>
+        <span
+          class="c18"
+        >
+          components.shoppingStoreCard.availability
+          Disponível em {{count}} dias úteis
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

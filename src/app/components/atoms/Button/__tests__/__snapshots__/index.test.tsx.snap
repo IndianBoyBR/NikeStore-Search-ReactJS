@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button  /> should match snapshot 1`] = `
+.c0 {
+  padding: 0.9rem 1.5rem;
+  border-radius: 3.125rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  outline: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.c0:focus,
+.c0:active {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus,
+.c0:active {
+  background-color: #FFFFFF;
+  color: #000000;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+<button
+  class="c0"
+  data-testid="button"
+  type="button"
+>
+  Label
+</button>
+`;

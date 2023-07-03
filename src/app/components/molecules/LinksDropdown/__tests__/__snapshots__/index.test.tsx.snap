@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinksDropdown  /> should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+  background: #000000;
+  overflow: hidden;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.c0[open] > summary span:after {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.c1 {
+  display: block;
+  background: #000000;
+  padding: 1rem 0;
+  position: relative;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+.c1::-webkit-details-marker {
+  display: none;
+}
+
+.c2 {
+  cursor: pointer;
+}
+
+.c2:before,
+.c2:after {
+  content: '';
+  position: absolute;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.c2:before {
+  top: calc(1px - -50%);
+  left: calc(100% - 2rem);
+  right: 0.7rem;
+  height: 0.1rem;
+  background: #D6D6D6;
+}
+
+.c2:after {
+  top: 1.2rem;
+  right: 1.3rem;
+  bottom: 1rem;
+  width: 0.1rem;
+  background: #FFFFFF;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 1.5rem 1rem;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #F7F7F7;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.c4:visited {
+  color: #D6D6D6;
+}
+
+<details
+  class="c0"
+  data-testid="linksDropdown"
+>
+  <summary
+    class="c1"
+  >
+    Help
+    <span
+      class="c2"
+    />
+  </summary>
+  <div
+    class="c3"
+  >
+    <a
+      aria-current="page"
+      class="c4 active"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="c4"
+      href="/y"
+    >
+      y
+    </a>
+  </div>
+</details>
+`;

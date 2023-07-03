@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsLetter  /> should match snapshot 1`] = `
+.c3 {
+  padding: 0.9rem 1.5rem;
+  border-radius: 3.125rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  outline: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.c3:focus,
+.c3:active {
+  outline: none;
+}
+
+.c3:hover,
+.c3:focus,
+.c3:active {
+  background-color: #FFFFFF;
+  color: #000000;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #F7F7F7;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.2rem;
+  color: #1A1A1A;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c2 {
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #1A1A1A;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 4rem 2.5rem;
+  }
+}
+
+<div
+  class="c0"
+  data-testid="newsLetter"
+>
+  <svg
+    fill="none"
+    height="32"
+    style="margin-bottom: 1.5rem;"
+    viewBox="0 0 91 32"
+    width="91"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M51.228 10.309l-5.607 1.49-15.559 4.12c-5.494 1.376-10.3 3.208-14.932 1.604C8.834 14.773 8.947 7.614 13.64 0 5.343 6.93-9.59 29.088 10.607 31.325c2.572.343 7.153-.57 12.128-2.688l22.887-9.504L90.76.457l-39.533 9.851z"
+      fill="#000"
+    />
+  </svg>
+  <span
+    class="c1"
+  >
+    components.newsLetter.title
+    RECEBA AS NOVIDADES DA NIKE
+  </span>
+  <span
+    class="c2"
+  >
+    components.newsLetter.message
+    Cadastre-se e seja um dos primeiros a saber de todas as novidades e ofertas.
+  </span>
+  <button
+    class="c3"
+    data-testid="button"
+    type="button"
+  >
+    components.newsLetter.registerButtonLabel
+    Cadastre-se
+  </button>
+</div>
+`;

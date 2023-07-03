@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShoppingStoreCard  /> should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  white-space: break-spaces;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  color: #1A1A1A;
+}
+
+.c2 {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #1A1A1A;
+}
+
+.c3 {
+  background-color: transparent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  color: #1A1A1A;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.c3:focus,
+.c3:active {
+  outline: none;
+}
+
+.c4 {
+  background-color: #FFFFFF;
+  margin: 1rem 0;
+  border-radius: 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 1.5rem;
+  gap: 0.5rem;
+}
+
+.c5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #737373;
+}
+
+.c6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: #006611;
+}
+
+<div
+  class=""
+  data-testid="shoppingStoreCard"
+>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Nike Store - Shopping Ibirapuera
+    </span>
+    <span
+      class="c2"
+    >
+      NaNkm
+    </span>
+  </div>
+  <button
+    class="c3"
+    role="showShoppingStoreOnMap"
+    type="button"
+  >
+    <svg
+      fill="none"
+      height="20"
+      viewBox="0 0 16 20"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M8 2c-1.574 0-3.095.657-4.225 1.846C2.644 5.036 2 6.66 2 8.364c0 2.48 1.536 4.901 3.243 6.796A23.147 23.147 0 008 17.745a23.145 23.145 0 002.757-2.585C12.464 13.265 14 10.844 14 8.364c0-1.704-.644-3.328-1.775-4.518C11.095 2.657 9.575 2 8 2zm0 17c-.574.819-.574.819-.575.818l-.002-.001-.006-.004-.018-.014a9.849 9.849 0 01-.305-.225A25.142 25.142 0 013.757 16.5C1.964 14.508 0 11.61 0 8.364 0 6.16.831 4.04 2.325 2.468 3.821.894 5.861 0 8 0s4.179.894 5.675 2.468C15.168 4.04 16 6.16 16 8.364c0 3.246-1.964 6.144-3.757 8.135a25.146 25.146 0 01-3.337 3.075 14.92 14.92 0 01-.305.225l-.018.014-.006.004h-.002c0 .001 0 .002-.575-.817zm0 0l.574.819a1 1 0 01-1.149 0L8 19z"
+        fill="#1A1A1A"
+        fill-rule="evenodd"
+      />
+      <path
+        clip-rule="evenodd"
+        d="M8 7a1 1 0 100 2 1 1 0 000-2zM5 8a3 3 0 116 0 3 3 0 01-6 0z"
+        fill="#1A1A1A"
+        fill-rule="evenodd"
+      />
+    </svg>
+    components.shoppingStoreCard.seeOnMapLabel
+    Ver no mapa
+  </button>
+  <div
+    class="c4"
+  >
+    <span
+      class="c5"
+    >
+      Av. Ibirapuera, 3103 - Indianópolis, São Paulo - SP, 04029-902
+    </span>
+    <span
+      class="c5"
+    >
+      components.shoppingStoreCard.service
+      Atendimento
+      :
+      <br />
+      Segunda a Sábado 10h às 22h | Domingo 11h às 20h
+    </span>
+    <span
+      class="c6"
+    >
+      components.shoppingStoreCard.availability
+      Disponível em {{count}} dias úteis
+    </span>
+  </div>
+</div>
+`;
